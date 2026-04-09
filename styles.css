@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.frame{
+  width: 90%;
+  border:  30px solid  #2b1a0e;
+height: 90%;
+margin: auto;
+filter: blur(3px);
+transform: rotate(0.3deg);
+  box-shadow: 5px 5px 50px 30px rgba(223, 23, 23, 0.4);
+  outline: 3px solid rgb(204, 12, 12);
+  outline-offset: 4px;
+}
+.sub-frame{
+  border: 20px solid #3d1200;
+  width: 100%;
+  height: 100%;
+  background-color: #5c1a00;
+  filter: blur(3px);
+  box-shadow: 5px 5px 50px 30px rgba(216, 149, 5, 0.4);
+}
+.paint{
+  width: 90%;
+  margin: 10px auto;
+  height: 30%;
+}
+.paint1{
+  background-color: #8b1a00;
+  filter: blur(2px);
+}
+.paint2{
+  background: linear-gradient(to bottom, #c45000, #8b3a00);
+  filter: blur(2px);
+}
+.paint3{
+  background: linear-gradient(to bottom, #3d0000, #1a0000);
+  filter: blur(2px);
+}
